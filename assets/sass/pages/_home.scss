@@ -1,0 +1,48 @@
+.navbar{
+    font-family: $mono-weight-regular;
+    font-weight: $primary-font-weight;
+
+
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.navbar-brand img {
+    height: 3.5rem;
+}
+
+.text{
+    display: grid;
+    align-content: center;
+}
+
+.container1{
+
+    &__title{
+        text-transform: uppercase;
+        font-family: $mono;
+        font-weight: $mono-weight-regular;
+        font-size: $font-size-xx-large;
+
+        
+    }
+
+    &__span{
+        font-size: $font-size-xxx-large;
+    }
+
+    &__sub{
+        text-transform: capitalize;
+        font-weight: $roboto-weight-light;
+        font-size: $font-size-x-large;
+        color: $shiny-shamrock;
+        text-align: center;
+    }
+
+    &__desc{
+        margin: 0 auto;
+    }
+
+}
