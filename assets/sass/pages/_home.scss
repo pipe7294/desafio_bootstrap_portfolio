@@ -46,3 +46,67 @@
     }
 
 }
+
+.skills {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    font-size: 1.2em;
+
+    span {
+        display: flex;
+        align-items: center;
+        margin: 10px 0;
+
+        i {
+            margin-right: 5px;
+            font-size: 2em;
+        }
+    }
+}
+
+#html-icon {
+    color: #DD4B25;
+}
+
+#css-icon {
+    color: #379AD6;
+}
+
+#sass-icon {
+    color: #CD669A;
+}
+
+#bootstrap-icon {
+    color: #533B78;
+}
+
+#git-icon {
+    color: #F05030;
+}
+
+#js-icon {
+    color: #E8D44D;
+}
+
+#vue-icon {
+    color: #3FB27F;
+}
+
+
+.projects__img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+
+}
+
+@media (max-width: 600px) {
+    .contact-btn {
+        width: 100%;
+    }
+
+    .skills {
+        flex-direction: column;
+    }
+  }
